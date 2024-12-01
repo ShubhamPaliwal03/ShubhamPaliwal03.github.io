@@ -268,7 +268,7 @@ section#about #my-pic
     justify-content: center;
     align-content: center;
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     column-gap: 7rem;
     row-gap: 3rem;
 }
@@ -348,6 +348,12 @@ section#testimonial
     border-radius: 15px;
     padding: 2rem 0em;
     row-gap: 0;
+    margin-bottom: 3rem;
+}
+
+.testimonial-container:last-of-type {
+
+    margin-bottom: 0rem;
 }
 
 .testimonial-giver-image
